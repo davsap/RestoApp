@@ -1,0 +1,8 @@
+<form (ngSubmit)='onSubmit()'>
+    <div class="form-group" >
+      <label for="nom">Nom</label>
+      <input type="text" class="form-control"  placeholder="Entrez le nom" name="nom" id="nom" [(ngModel)]="type.nom">
+    </div>
+            
+    <button type="submit" class="btn btn-success mb-2">Enregistrer</button>
+  </form> 

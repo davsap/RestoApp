@@ -1,0 +1,44 @@
+<div class="container card">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <div class="card-header">
+        <h5 class="card-title">{{food.nom}}</h5>
+       
+      </div>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <div class="card-body">
+        <p class="card-text">{{food.description}}</p>
+      </div>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 card-text">{{food.prix}}</div>
+    <div class="col-sm-4"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 card-footer">
+
+      <div class="row">
+        <div class="col-sm-6"><a href="#" (click)="onDelete()"> <img src="./../../../assets/images/Delete.png" width="16"
+              height="16"> </a></div>
+        <div class="col-sm-6 editButton" > <a href="#" (click)="onEdit()"> <img src="./../../../assets/images/edit.png" width="16"
+              height="16"> </a></div>
+
+      </div>
+
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+
+</div>

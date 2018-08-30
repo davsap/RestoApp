@@ -1,0 +1,8 @@
+<div>
+  <br>
+<div class="card-deck">
+  <div *ngFor="let food of service.foods | async" class="col-sm-3 placement">
+    <app-food-card [food]='food'></app-food-card>
+  </div>
+</div>
+</div>
